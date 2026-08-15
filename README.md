@@ -1,4 +1,4 @@
-# 🚀 Awesome Solana (Open-Source Edition)
+# 🚀 Awesome Solana Open Source
 
 [![Awesome](https://i.imgur.com/fZVEgpL.png)](https://github.com/sindresorhus/awesome)
 
