@@ -125,6 +125,10 @@ Tooling for building Solana integrations into web-based applications.
 
 | Name | Description |
 | --- | --- |
+| [Kit](https://github.com/anza-xyz/kit) | Solana JavaScript SDK |
+| [Web3.js](https://github.com/blueshift-gg/solana-web3.js) | Updated version of Web3.js built on Kit |
+| [Gill](https://github.com/gillsdk/gill) | Client library for interacting with Solana |
+| [Wallet Adapter](https://github.com/anza-xyz/wallet-adapter) | TypeScript wallet adapters and components for Solana applications |
 
 ## Cryptography
 
