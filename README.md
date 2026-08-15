@@ -24,6 +24,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) before suggesting an addition.
 - [Web Tooling](#web-tooling)
 - [Cryptography](#cryptography)
 - [Security & Reverse Engineering](#security--reverse-engineering)
+- [Governance](#governance)
 - [Miscellaneous](#miscellaneous)
 
 ## Clients
@@ -56,6 +57,7 @@ Tooling for building, testing, and benchmarking Solana programs.
 | [sbpf](https://github.com/blueshift-gg/sbpf) | Bootstrap, build and deploy sBPF assembly programs with ease |
 | [sbpf-linker](https://github.com/blueshift-gg/sbpf-linker) | An upstream BPF linker for SBPF V0 programs |
 | [Seashell](https://github.com/soundsonacid/seashell) | Reproducible SVM testing with mainnet state |
+| [solana-verifiable-build](https://github.com/solana-foundation/solana-verifiable-build) | CLI tool for deterministically building and verifying executable against on-chain programs or buffer accounts |
 
 ## Infrastructure
 
@@ -65,6 +67,7 @@ RPCs, indexers, geyser plugins, and other deployable infrastructure pieces.
 | --- | --- |
 | [Yellowstone gRPC](https://github.com/rpcpool) | Triton's Dragon's Mouth Yellowstone gRPC service for high-performance Solana streaming |
 | [Metis Binary](https://github.com/jup-ag/metis-binary) | Self-hostable Jupiter Metis Swap API |
+| [TxTx](https://github.com/solana-foundation/txtx) | Terraform for web3 |
 
 ## DeFi
 
@@ -80,6 +83,7 @@ Decentralized finance protocols.
 | [Meteora DAMM v2](https://github.com/MeteoraAg/damm-v2) | Dynamic Automated Market Maker V2 |
 | [Meteora DBC](https://github.com/MeteoraAg/dynamic-bonding-curve) | Dynamic Bonding Curve Program |
 | [Manifest](https://github.com/Bonasa-Tech/manifest) | Spot CLOB |
+| [MetaDAO](https://github.com/metaDAOproject/programs) | Programs for unruggable capital formation and market-driven governance |
 
 ## On-Chain Primitives
 
@@ -91,6 +95,7 @@ Useful non-DeFi on-chain primitives.
 | [Lighthouse](https://github.com/Jac0xb/lighthouse) | Assertion instructions to enhance transaction security |
 | [Vector](https://github.com/blueshift-gg/vector) | Offline Solana transaction signing without durable nonces |
 | [Doppler](https://github.com/blueshift-gg/doppler) | The fastest oracle on Solana |
+| [Subscriptions](https://github.com/solana-foundation/subscriptions) | Primitive for third party assets delegations |
 | [sbpf-asm-timeout](https://github.com/deanmlittle/sbpf-asm-timeout-account) | Slot-height based cancel instruction |
 | [sbpf-asm-abort](https://github.com/deanmlittle/sbpf-asm-abort) | Single transaction program shutdown |
 
@@ -100,6 +105,7 @@ Tooling for parsing, organizing, viewing, and analyzing Solana data.
 
 | Name | Description |
 | --- | --- |
+| [Explorer](https://github.com/solana-foundation/explorer) | Explorer for Solana clusters |
 | [Xray](https://github.com/helius-labs/xray) | A human-readable Solana transaction explorer powered by Helius |
 | [Carbon](https://github.com/sevenlabs-hq/carbon) | Indexing framework |
 | [Yellowstone Vixen](https://github.com/rpcpool/yellowstone-vixen) | Program parsing toolkit |
@@ -110,6 +116,8 @@ Wallets for desktop and major browsers.
 
 | Name | Description |
 | --- | --- |
+| [Samui](https://github.com/samui-build/samui-wallet) | Wallet and toolbox for Solana builders |
+| [Salmon](https://github.com/Salmon-HQ/salmon-wallet-frontend) | Community-owned wallet built for Solana |
 
 ## Web Tooling
 
@@ -125,6 +133,7 @@ Cryptographic primitives and verification libraries.
 | Name | Description |
 | --- | --- |
 | [brine-ed25519](https://github.com/zfedoran/brine-ed25519) | Ed25519 signature verification for Solana programs |
+| [solana-winternitz](https://github.com/deanmlittle/solana-winternitz) | Solana-centric implementation of the Winternitz One-Time Signature (WOTS) scheme |
 
 ## Security & Reverse Engineering
 
@@ -135,6 +144,13 @@ Program auditing, fuzzing, static analysis, and more.
 | [Trident](https://github.com/Ackee-Blockchain/trident) | Rust-based framework for Solana program fuzzing |
 | [qedsvm](https://github.com/QEDGen/qedsvm) | Execute and verify sBPF programs with a Lean 4 reference model |
 | [sol-azy](https://github.com/FuzzingLabs/sol-azy) | Tooling for static analysis and reverse engineering sBPF programs |
+
+## Governance
+
+| Name | Description |
+| --- | --- |
+| [Solana Governance Proposals](https://github.com/solana-foundation/solana-governance-proposals) | Proposed and accepted governance initiatives for Solana |
+| [Solana Improvement Documents](https://github.com/solana-foundation/solana-improvement-documents) | Proposed and accepted changes to the Solana protocol
 
 ## Miscellaneous
 
